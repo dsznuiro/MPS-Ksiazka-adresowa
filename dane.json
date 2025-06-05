@@ -1,0 +1,72 @@
+[
+  {
+    "Imię": "Jan",
+    "Nazwisko": "Kowalski",
+    "Ulica": "Kwiatowa",
+    "Numer domu": "5",
+    "Miasto": "Warszawa"
+  },
+  {
+    "Imię": "Anna",
+    "Nazwisko": "Nowak",
+    "Ulica": "Szkolna",
+    "Numer domu": "12",
+    "Miasto": "Kraków"
+  },
+  {
+    "Imię": "Piotr",
+    "Nazwisko": "Wiśniewski",
+    "Ulica": "Leśna",
+    "Numer domu": "3",
+    "Miasto": "Gdańsk"
+  },
+  {
+    "Imię": "Katarzyna",
+    "Nazwisko": "Dąbrowska",
+    "Ulica": "Słoneczna",
+    "Numer domu": "7",
+    "Miasto": "Poznań"
+  },
+  {
+    "Imię": "Marek",
+    "Nazwisko": "Lewandowski",
+    "Ulica": "Parkowa",
+    "Numer domu": "9",
+    "Miasto": "Wrocław"
+  },
+  {
+    "Imię": "Alicja",
+    "Nazwisko": "Jankowska",
+    "Ulica": "Brzozowa",
+    "Numer domu": "14",
+    "Miasto": "Szczecin"
+  },
+  {
+    "Imię": "Tomasz",
+    "Nazwisko": "Wójcik",
+    "Ulica": "Lipowa",
+    "Numer domu": "22",
+    "Miasto": "Łódź"
+  },
+  {
+    "Imię": "Magdalena",
+    "Nazwisko": "Kamińska",
+    "Ulica": "Polna",
+    "Numer domu": "17",
+    "Miasto": "Katowice"
+  },
+  {
+    "Imię": "Paweł",
+    "Nazwisko": "Mazurek",
+    "Ulica": "Ogrodowa",
+    "Numer domu": "6",
+    "Miasto": "Lublin"
+  },
+  {
+    "Imię": "Ewa",
+    "Nazwisko": "Szymańska",
+    "Ulica": "Sosnowa",
+    "Numer domu": "11",
+    "Miasto": "Gdynia"
+  }
+]
