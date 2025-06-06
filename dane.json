@@ -1,70 +1,70 @@
 [
   {
-    "Imię": "Jan",
+    "Imie": "Jan",
     "Nazwisko": "Kowalski",
     "Ulica": "Kwiatowa",
     "Numer domu": "5",
     "Miasto": "Warszawa"
   },
   {
-    "Imię": "Anna",
+    "Imie": "Anna",
     "Nazwisko": "Nowak",
     "Ulica": "Szkolna",
     "Numer domu": "12",
-    "Miasto": "Kraków"
+    "Miasto": "Krakow"
   },
   {
-    "Imię": "Piotr",
-    "Nazwisko": "Wiśniewski",
-    "Ulica": "Leśna",
+    "Imie": "Piotr",
+    "Nazwisko": "Wisniewski",
+    "Ulica": "Lesna",
     "Numer domu": "3",
-    "Miasto": "Gdańsk"
+    "Miasto": "Gdansk"
   },
   {
-    "Imię": "Katarzyna",
-    "Nazwisko": "Dąbrowska",
-    "Ulica": "Słoneczna",
+    "Imie": "Katarzyna",
+    "Nazwisko": "Dabrowska",
+    "Ulica": "Sloneczna",
     "Numer domu": "7",
-    "Miasto": "Poznań"
+    "Miasto": "Poznan"
   },
   {
-    "Imię": "Marek",
+    "Imie": "Marek",
     "Nazwisko": "Lewandowski",
     "Ulica": "Parkowa",
     "Numer domu": "9",
-    "Miasto": "Wrocław"
+    "Miasto": "Wroclaw"
   },
   {
-    "Imię": "Alicja",
+    "Imie": "Alicja",
     "Nazwisko": "Jankowska",
     "Ulica": "Brzozowa",
     "Numer domu": "14",
     "Miasto": "Szczecin"
   },
   {
-    "Imię": "Tomasz",
-    "Nazwisko": "Wójcik",
+    "Imie": "Tomasz",
+    "Nazwisko": "Wojcik",
     "Ulica": "Lipowa",
     "Numer domu": "22",
-    "Miasto": "Łódź"
+    "Miasto": "Gdansk"
   },
   {
-    "Imię": "Magdalena",
-    "Nazwisko": "Kamińska",
+    "Imie": "Magdalena",
+    "Nazwisko": "Kaminska",
     "Ulica": "Polna",
     "Numer domu": "17",
     "Miasto": "Katowice"
   },
   {
-    "Imię": "Paweł",
+    "Imie": "Pawel",
     "Nazwisko": "Mazurek",
     "Ulica": "Ogrodowa",
     "Numer domu": "6",
     "Miasto": "Lublin"
   },
   {
-    "Imię": "Ewa",
-    "Nazwisko": "Szymańska",
+    "Imie": "Ewa",
+    "Nazwisko": "Szymanska",
     "Ulica": "Sosnowa",
     "Numer domu": "11",
     "Miasto": "Gdynia"
