@@ -7,7 +7,7 @@ def load_data():
         with open("dane.json", "r", encoding="utf-8") as file:
             data = json.load(file)
     except FileNotFoundError:
-        print("Plik 'dane.json' nie został znaleziony.")
+        print("Plik 'dane.json' nie zostal znaleziony.")
         return []
     return data
 
@@ -27,7 +27,7 @@ def show_table():
     adresy = load_data()
     for adres in adresy:
         table.insert("", "end", values=(
-            adres["Imię"],
+            adres["Imie"],
             adres["Nazwisko"],
             adres["Ulica"],
             adres["Numer domu"],
@@ -37,8 +37,8 @@ def show_table():
 def sprawdz_duplikaty(imie, nazwisko):
     adresy = load_data()
     for adres in adresy:
-        if adres["Imię"] == imie and adres["Nazwisko"] == nazwisko:
-            messagebox.showwarning("Uwaga", "Taki użytkownik już istnieje!")
+        if adres["Imie"] == imie and adres["Nazwisko"] == nazwisko:
+            messagebox.showwarning("Uwaga", "Taki uzytkownik juz istnieje!")
             return True
     return False
 
@@ -50,14 +50,14 @@ def submit_data():
     miasto = entry_miasto.get()
 
     if not imie or not nazwisko:
-        messagebox.showwarning("Uwaga", "Imię i nazwisko są wymagane!")
+        messagebox.showwarning("Uwaga", "imie i nazwisko sa wymagane!")
         return
 
     if sprawdz_duplikaty(imie, nazwisko):
         return
 
     adres = {
-        "Imię": imie,
+        "Imie": imie,
         "Nazwisko": nazwisko,
         "Ulica": ulica,
         "Numer domu": numer_domu,
@@ -79,7 +79,7 @@ def szukaj():
     for adres in adresy:
         if fraza.lower() in adres["Nazwisko"].lower():
             table.insert("", "end", values=(
-                adres["Imię"],
+                adres["Imie"],
                 adres["Nazwisko"],
                 adres["Ulica"],
                 adres["Numer domu"],
@@ -95,12 +95,12 @@ def statystyki():
     statystyka = "\n".join([f"{miasto}: {liczba}" for miasto, liczba in miasta.items()])
     messagebox.showinfo("Statystyki", statystyka)
 
-#tworzenie okna głównego
+#tworzenie okna głownego
 root = tk.Tk()
 root.title("Formularz Adresowy")
 
 #pola do wprowadzania danych
-tk.Label(root, text="Imię:").grid(row=0, column=0, sticky="w")
+tk.Label(root, text="Imie:").grid(row=0, column=0, sticky="w")
 entry_imie = tk.Entry(root)
 entry_imie.grid(row=0, column=1)
 
@@ -121,17 +121,17 @@ entry_miasto = tk.Entry(root)
 entry_miasto.grid(row=4, column=1)
 
 #przycisk zatwierdzający
-submit_button = tk.Button(root, text="Zatwierdź", command=submit_data)
+submit_button = tk.Button(root, text="Zatwierdz", command=submit_data)
 submit_button.grid(row=5, columnspan=2)
 
-#tabela do wyświetlania danych
-columns = ("Imię", "Nazwisko", "Ulica", "Numer domu", "Miasto")
+#tabela do wyswietlania danych
+columns = ("imie", "Nazwisko", "Ulica", "Numer domu", "Miasto")
 table = ttk.Treeview(root, columns=columns, show="headings")
 for col in columns:
     table.heading(col, text=col)
 table.grid(row=6, columnspan=2)
 
-#przycisk do ręcznego odświeżania tabeli
+#przycisk do recznego odswiezania tabeli
 load_button = tk.Button(root, text="Wczytaj dane", command=show_table)
 load_button.grid(row=7, columnspan=2)
 
